@@ -1878,7 +1878,7 @@ void Menu_Cache(void) {
 	uis.pad_mainframe = trap_R_RegisterShaderNoMip("menu/bg/main");
 	uis.pad_setupbg = trap_R_RegisterShaderNoMip("menu/bg/setup");
 	uis.pad_display = trap_R_RegisterShaderNoMip("menu/bg/system");
-	uis.pad_defaults = trap_R_RegisterShaderNoMip("menu/bg/default");
+	uis.pad_defaults = trap_R_RegisterShaderNoMip("menu/bg/defaults");
 	uis.pad_controlbg = trap_R_RegisterShaderNoMip("menu/bg/controls");
 	uis.pad_playerbg = trap_R_RegisterShaderNoMip("menu/bg/player");
 	uis.pad_server2bg = trap_R_RegisterShaderNoMip("menu/bg/servers");

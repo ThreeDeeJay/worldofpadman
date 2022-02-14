@@ -142,7 +142,7 @@ static void Demos_MenuInit(void) {
 
 	s_demos.menu.fullscreen = qtrue;
 	s_demos.menu.wrapAround = qtrue;
-	s_demos.menu.bgparts = BGP_DEMOBG | BGP_SIMPLEBG;
+	s_demos.menu.bgparts = BGP_DEMOS | BGP_MENUFX;
 
 	s_demos.up.generic.type = MTYPE_BITMAP;
 	s_demos.up.generic.name = ARROWUP0;

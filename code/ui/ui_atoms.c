@@ -1062,6 +1062,7 @@ void UI_Cache_f(void) {
 
 	SetupDefaultMenu_Cache();
 	UI_BigCredits_Cache();
+	UI_Credit_Cache();
 
 	UI_BotSelectMenu_Cache();
 	UI_ModsMenu_Cache();
@@ -1157,7 +1158,7 @@ void UI_Init(void) {
 		// wide screen
 		uis.xbias = 0.5 * (uis.glconfig.vidWidth - (uis.glconfig.vidHeight * ((float)SCREEN_WIDTH/(float)SCREEN_HEIGHT)));
 		uis.xscale = uis.yscale;
-		uis.ybias = 0;		
+		uis.ybias = 0;
 	} else {
 		// no wide screen
 		uis.xbias = 0;
